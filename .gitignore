@@ -1,7 +1,6 @@
-# Local Amazon scraper secrets and generated exports
-amazon_cookie*.txt
-amazon_reviews_*.csv
-amazon_reviews_*.jsonl
+# Local secrets and generated exports
+*.env
+*.local
 
 # Dependencies and build output
 node_modules/
