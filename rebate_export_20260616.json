@@ -1,0 +1,490 @@
+{
+  "metadata": {
+    "source_file": "C:\\Users\\stephen.deng\\Downloads\\Rebate.xlsx",
+    "as_of": "2026-06-16",
+    "orders_loaded": 18,
+    "transactions": 18,
+    "redemptions": 0
+  },
+  "transactions": [
+    {
+      "txn_id": "c5fbd1c6-47b8-48e3-a08a-9115186d55a9",
+      "key": "Britt Robertson",
+      "customer_name": "Britt Robertson",
+      "txn_type": "purchase",
+      "txn_date": "2025-01-06",
+      "txn_month": "2025-01",
+      "gross_amount": 810.0,
+      "expiry_date": "2026-01-06",
+      "credit_redeemed": 0.0,
+      "net_billed": 810.0,
+      "ref_txn_id": null,
+      "notes": "Doc SO0000052168"
+    },
+    {
+      "txn_id": "ab39c7b1-06d8-48b9-819e-956ae19a7df8",
+      "key": "Eddie Montalvo",
+      "customer_name": "Eddie Montalvo",
+      "txn_type": "purchase",
+      "txn_date": "2025-01-15",
+      "txn_month": "2025-01",
+      "gross_amount": 2510.0,
+      "expiry_date": "2026-01-15",
+      "credit_redeemed": 0.0,
+      "net_billed": 2510.0,
+      "ref_txn_id": null,
+      "notes": "Doc SO0000052392"
+    },
+    {
+      "txn_id": "3b3ca813-4e8e-4f0c-b520-61e68972c2fb",
+      "key": "Xiaobo Lu",
+      "customer_name": "Xiaobo Lu",
+      "txn_type": "purchase",
+      "txn_date": "2025-01-21",
+      "txn_month": "2025-01",
+      "gross_amount": 7.98,
+      "expiry_date": "2026-01-21",
+      "credit_redeemed": 0.0,
+      "net_billed": 7.98,
+      "ref_txn_id": null,
+      "notes": "Doc SO0000052530"
+    },
+    {
+      "txn_id": "7b3446cb-6edd-4478-b899-4731827b8c1d",
+      "key": "Eddie Montalvo",
+      "customer_name": "Eddie Montalvo",
+      "txn_type": "purchase",
+      "txn_date": "2025-03-05",
+      "txn_month": "2025-03",
+      "gross_amount": 1255.17,
+      "expiry_date": "2026-03-05",
+      "credit_redeemed": 0.0,
+      "net_billed": 1255.17,
+      "ref_txn_id": null,
+      "notes": "Doc SO0000053440"
+    },
+    {
+      "txn_id": "549087aa-6008-4b3c-998e-2431827cbf98",
+      "key": "Andrew Gonzalez",
+      "customer_name": "Andrew Gonzalez",
+      "txn_type": "purchase",
+      "txn_date": "2025-03-13",
+      "txn_month": "2025-03",
+      "gross_amount": 3628.9,
+      "expiry_date": "2026-03-13",
+      "credit_redeemed": 0.0,
+      "net_billed": 3628.9,
+      "ref_txn_id": null,
+      "notes": "Doc SO0000053641"
+    },
+    {
+      "txn_id": "aea10d15-2b54-419e-a0f8-473eaede1893",
+      "key": "CHIP HARPER",
+      "customer_name": "CHIP HARPER",
+      "txn_type": "purchase",
+      "txn_date": "2025-03-18",
+      "txn_month": "2025-03",
+      "gross_amount": 7616.0,
+      "expiry_date": "2026-03-18",
+      "credit_redeemed": 0.0,
+      "net_billed": 7616.0,
+      "ref_txn_id": null,
+      "notes": "Doc SO0000053787"
+    },
+    {
+      "txn_id": "4a12af9e-4922-417a-96fe-d64335c02510",
+      "key": "Andrew de Freitas",
+      "customer_name": "Andrew de Freitas",
+      "txn_type": "purchase",
+      "txn_date": "2025-03-26",
+      "txn_month": "2025-03",
+      "gross_amount": 465.93,
+      "expiry_date": "2026-03-26",
+      "credit_redeemed": 0.0,
+      "net_billed": 465.93,
+      "ref_txn_id": null,
+      "notes": "Doc SO0000053955"
+    },
+    {
+      "txn_id": "bef5b752-c8d2-4ddc-a3e3-00a43c6ddbd7",
+      "key": "Andrew Gonzalez",
+      "customer_name": "Andrew Gonzalez",
+      "txn_type": "purchase",
+      "txn_date": "2025-03-31",
+      "txn_month": "2025-03",
+      "gross_amount": 608.33,
+      "expiry_date": "2026-03-31",
+      "credit_redeemed": 0.0,
+      "net_billed": 608.33,
+      "ref_txn_id": null,
+      "notes": "Doc SO0000054057"
+    },
+    {
+      "txn_id": "dd5239e7-fc53-4f2a-a436-c2b97733a83d",
+      "key": "Braden Giles",
+      "customer_name": "Braden Giles",
+      "txn_type": "purchase",
+      "txn_date": "2025-04-04",
+      "txn_month": "2025-04",
+      "gross_amount": 1240.15,
+      "expiry_date": "2026-04-04",
+      "credit_redeemed": 0.0,
+      "net_billed": 1240.15,
+      "ref_txn_id": null,
+      "notes": "Doc SO0000054152"
+    },
+    {
+      "txn_id": "afd70a23-32b5-445f-860d-1a10cda3f65b",
+      "key": "Jerel Luna",
+      "customer_name": "Jerel Luna",
+      "txn_type": "purchase",
+      "txn_date": "2025-07-25",
+      "txn_month": "2025-07",
+      "gross_amount": 30.85,
+      "expiry_date": "2026-07-25",
+      "credit_redeemed": 0.0,
+      "net_billed": 30.85,
+      "ref_txn_id": null,
+      "notes": "Doc SO0000056458"
+    },
+    {
+      "txn_id": "5804ffbd-ee3a-4a28-b504-35c4abc613d2",
+      "key": "Jerel Luna",
+      "customer_name": "Jerel Luna",
+      "txn_type": "purchase",
+      "txn_date": "2025-07-30",
+      "txn_month": "2025-07",
+      "gross_amount": 30.85,
+      "expiry_date": "2026-07-30",
+      "credit_redeemed": 0.0,
+      "net_billed": 30.85,
+      "ref_txn_id": null,
+      "notes": "Doc SO0000056574"
+    },
+    {
+      "txn_id": "b933bceb-d942-4960-b8a3-2e5ae793e48e",
+      "key": "GENA SANDER",
+      "customer_name": "GENA SANDER",
+      "txn_type": "purchase",
+      "txn_date": "2025-08-04",
+      "txn_month": "2025-08",
+      "gross_amount": 2010.04,
+      "expiry_date": "2026-08-04",
+      "credit_redeemed": 0.0,
+      "net_billed": 2010.04,
+      "ref_txn_id": null,
+      "notes": "Doc SO0000056656"
+    },
+    {
+      "txn_id": "ca4f97eb-4341-4df2-8129-566ce482b2ed",
+      "key": "Yucheng Lu",
+      "customer_name": "Yucheng Lu",
+      "txn_type": "purchase",
+      "txn_date": "2025-10-08",
+      "txn_month": "2025-10",
+      "gross_amount": 22.19,
+      "expiry_date": "2026-10-08",
+      "credit_redeemed": 0.0,
+      "net_billed": 22.19,
+      "ref_txn_id": null,
+      "notes": "Doc SO0000058180"
+    },
+    {
+      "txn_id": "a52a368e-88d7-48f7-9890-0c7d3802913c",
+      "key": "Katrina Perasso",
+      "customer_name": "Katrina Perasso",
+      "txn_type": "purchase",
+      "txn_date": "2025-10-15",
+      "txn_month": "2025-10",
+      "gross_amount": 1525.7,
+      "expiry_date": "2026-10-15",
+      "credit_redeemed": 0.0,
+      "net_billed": 1525.7,
+      "ref_txn_id": null,
+      "notes": "Doc SO0000058327"
+    },
+    {
+      "txn_id": "1760c2b4-bdad-437e-a1fc-a44cb4de9d2d",
+      "key": "Joseph Esposito",
+      "customer_name": "Joseph Esposito",
+      "txn_type": "purchase",
+      "txn_date": "2025-10-17",
+      "txn_month": "2025-10",
+      "gross_amount": 18524.14,
+      "expiry_date": "2026-10-17",
+      "credit_redeemed": 0.0,
+      "net_billed": 18524.14,
+      "ref_txn_id": null,
+      "notes": "Doc SO0000058376"
+    },
+    {
+      "txn_id": "12dc9de1-c662-4380-bb2a-d62408151b3a",
+      "key": "Shimon Machlis",
+      "customer_name": "Shimon Machlis",
+      "txn_type": "purchase",
+      "txn_date": "2025-11-12",
+      "txn_month": "2025-11",
+      "gross_amount": 1159.0,
+      "expiry_date": "2026-11-12",
+      "credit_redeemed": 0.0,
+      "net_billed": 1159.0,
+      "ref_txn_id": null,
+      "notes": "Doc SO0000058976"
+    },
+    {
+      "txn_id": "bdfc8c04-b936-4a0b-b015-5ae06c4cfae1",
+      "key": "Eddie Montalvo",
+      "customer_name": "Eddie Montalvo",
+      "txn_type": "purchase",
+      "txn_date": "2025-11-13",
+      "txn_month": "2025-11",
+      "gross_amount": 2510.0,
+      "expiry_date": "2026-11-13",
+      "credit_redeemed": 0.0,
+      "net_billed": 2510.0,
+      "ref_txn_id": null,
+      "notes": "Doc SO0000059013"
+    },
+    {
+      "txn_id": "24da4e8c-5a47-4b23-8817-e4a6686c5fd1",
+      "key": "Maria Mila",
+      "customer_name": "Maria Mila",
+      "txn_type": "purchase",
+      "txn_date": "2025-11-24",
+      "txn_month": "2025-11",
+      "gross_amount": 579.51,
+      "expiry_date": "2026-11-24",
+      "credit_redeemed": 0.0,
+      "net_billed": 579.51,
+      "ref_txn_id": null,
+      "notes": "Doc SO0000059222"
+    }
+  ],
+  "redemptions": [],
+  "credit_summary": [
+    {
+      "key": "Joseph Esposito",
+      "customer_name": "Joseph Esposito",
+      "as_of": "2026-06-16",
+      "active_pool": 18524.14,
+      "current_tier": 3,
+      "tier_credit_value": 675.0,
+      "credit_balance": 675.0
+    },
+    {
+      "key": "Eddie Montalvo",
+      "customer_name": "Eddie Montalvo",
+      "as_of": "2026-06-16",
+      "active_pool": 2510.0,
+      "current_tier": 0,
+      "tier_credit_value": 0.0,
+      "credit_balance": 0.0
+    },
+    {
+      "key": "GENA SANDER",
+      "customer_name": "GENA SANDER",
+      "as_of": "2026-06-16",
+      "active_pool": 2010.04,
+      "current_tier": 0,
+      "tier_credit_value": 0.0,
+      "credit_balance": 0.0
+    },
+    {
+      "key": "Katrina Perasso",
+      "customer_name": "Katrina Perasso",
+      "as_of": "2026-06-16",
+      "active_pool": 1525.7,
+      "current_tier": 0,
+      "tier_credit_value": 0.0,
+      "credit_balance": 0.0
+    },
+    {
+      "key": "Shimon Machlis",
+      "customer_name": "Shimon Machlis",
+      "as_of": "2026-06-16",
+      "active_pool": 1159.0,
+      "current_tier": 0,
+      "tier_credit_value": 0.0,
+      "credit_balance": 0.0
+    },
+    {
+      "key": "Maria Mila",
+      "customer_name": "Maria Mila",
+      "as_of": "2026-06-16",
+      "active_pool": 579.51,
+      "current_tier": 0,
+      "tier_credit_value": 0.0,
+      "credit_balance": 0.0
+    },
+    {
+      "key": "Jerel Luna",
+      "customer_name": "Jerel Luna",
+      "as_of": "2026-06-16",
+      "active_pool": 61.7,
+      "current_tier": 0,
+      "tier_credit_value": 0.0,
+      "credit_balance": 0.0
+    },
+    {
+      "key": "Yucheng Lu",
+      "customer_name": "Yucheng Lu",
+      "as_of": "2026-06-16",
+      "active_pool": 22.19,
+      "current_tier": 0,
+      "tier_credit_value": 0.0,
+      "credit_balance": 0.0
+    },
+    {
+      "key": "CHIP HARPER",
+      "customer_name": "CHIP HARPER",
+      "as_of": "2026-06-16",
+      "active_pool": 0.0,
+      "current_tier": 0,
+      "tier_credit_value": 0.0,
+      "credit_balance": 0.0
+    },
+    {
+      "key": "Andrew de Freitas",
+      "customer_name": "Andrew de Freitas",
+      "as_of": "2026-06-16",
+      "active_pool": 0.0,
+      "current_tier": 0,
+      "tier_credit_value": 0.0,
+      "credit_balance": 0.0
+    },
+    {
+      "key": "Andrew Gonzalez",
+      "customer_name": "Andrew Gonzalez",
+      "as_of": "2026-06-16",
+      "active_pool": 0.0,
+      "current_tier": 0,
+      "tier_credit_value": 0.0,
+      "credit_balance": 0.0
+    },
+    {
+      "key": "Britt Robertson",
+      "customer_name": "Britt Robertson",
+      "as_of": "2026-06-16",
+      "active_pool": 0.0,
+      "current_tier": 0,
+      "tier_credit_value": 0.0,
+      "credit_balance": 0.0
+    },
+    {
+      "key": "Braden Giles",
+      "customer_name": "Braden Giles",
+      "as_of": "2026-06-16",
+      "active_pool": 0.0,
+      "current_tier": 0,
+      "tier_credit_value": 0.0,
+      "credit_balance": 0.0
+    },
+    {
+      "key": "Xiaobo Lu",
+      "customer_name": "Xiaobo Lu",
+      "as_of": "2026-06-16",
+      "active_pool": 0.0,
+      "current_tier": 0,
+      "tier_credit_value": 0.0,
+      "credit_balance": 0.0
+    }
+  ],
+  "monthly_expiry": [
+    {
+      "key": "Britt Robertson",
+      "customer_name": "Britt Robertson",
+      "expiry_month": "2026-01",
+      "amount_expiring": 810.0
+    },
+    {
+      "key": "Eddie Montalvo",
+      "customer_name": "Eddie Montalvo",
+      "expiry_month": "2026-01",
+      "amount_expiring": 2510.0
+    },
+    {
+      "key": "Xiaobo Lu",
+      "customer_name": "Xiaobo Lu",
+      "expiry_month": "2026-01",
+      "amount_expiring": 7.98
+    },
+    {
+      "key": "Andrew Gonzalez",
+      "customer_name": "Andrew Gonzalez",
+      "expiry_month": "2026-03",
+      "amount_expiring": 4237.2300000000005
+    },
+    {
+      "key": "Andrew de Freitas",
+      "customer_name": "Andrew de Freitas",
+      "expiry_month": "2026-03",
+      "amount_expiring": 465.93
+    },
+    {
+      "key": "CHIP HARPER",
+      "customer_name": "CHIP HARPER",
+      "expiry_month": "2026-03",
+      "amount_expiring": 7616.0
+    },
+    {
+      "key": "Eddie Montalvo",
+      "customer_name": "Eddie Montalvo",
+      "expiry_month": "2026-03",
+      "amount_expiring": 1255.17
+    },
+    {
+      "key": "Braden Giles",
+      "customer_name": "Braden Giles",
+      "expiry_month": "2026-04",
+      "amount_expiring": 1240.15
+    },
+    {
+      "key": "Jerel Luna",
+      "customer_name": "Jerel Luna",
+      "expiry_month": "2026-07",
+      "amount_expiring": 61.7
+    },
+    {
+      "key": "GENA SANDER",
+      "customer_name": "GENA SANDER",
+      "expiry_month": "2026-08",
+      "amount_expiring": 2010.04
+    },
+    {
+      "key": "Joseph Esposito",
+      "customer_name": "Joseph Esposito",
+      "expiry_month": "2026-10",
+      "amount_expiring": 18524.14
+    },
+    {
+      "key": "Katrina Perasso",
+      "customer_name": "Katrina Perasso",
+      "expiry_month": "2026-10",
+      "amount_expiring": 1525.7
+    },
+    {
+      "key": "Yucheng Lu",
+      "customer_name": "Yucheng Lu",
+      "expiry_month": "2026-10",
+      "amount_expiring": 22.19
+    },
+    {
+      "key": "Eddie Montalvo",
+      "customer_name": "Eddie Montalvo",
+      "expiry_month": "2026-11",
+      "amount_expiring": 2510.0
+    },
+    {
+      "key": "Maria Mila",
+      "customer_name": "Maria Mila",
+      "expiry_month": "2026-11",
+      "amount_expiring": 579.51
+    },
+    {
+      "key": "Shimon Machlis",
+      "customer_name": "Shimon Machlis",
+      "expiry_month": "2026-11",
+      "amount_expiring": 1159.0
+    }
+  ]
+}

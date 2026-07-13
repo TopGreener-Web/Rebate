@@ -1,0 +1,20 @@
+# Local Amazon scraper secrets and generated exports
+amazon_cookie*.txt
+amazon_reviews_*.csv
+amazon_reviews_*.jsonl
+
+# Dependencies and build output
+node_modules/
+dist/
+
+# Local runtime output
+*.log
+__pycache__/
+*.py[cod]
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+
+# Local temporary folders
+tmp*/

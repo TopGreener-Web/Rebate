@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LIDER Rebate Credit Dashboard</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar" aria-label="Primary navigation">
+        <div class="brand">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span>LIDERDASH</span>
+        </div>
+
+        <p class="menu-label">Menu</p>
+        <nav class="nav-list">
+          <button class="nav-item active" type="button" data-view="dashboard" data-title="Dashboard" aria-current="page">
+            <span class="nav-icon nav-icon-dashboard" aria-hidden="true"></span>
+            <span>Dashboard</span>
+          </button>
+          <button class="nav-item" type="button" data-view="summary" data-title="Customer Summary">
+            <span class="nav-icon nav-icon-summary" aria-hidden="true"></span>
+            <span>Customer Summary</span>
+          </button>
+          <button class="nav-item" type="button" data-view="table" data-title="Table">
+            <span class="nav-icon nav-icon-table" aria-hidden="true"></span>
+            <span>Table</span>
+          </button>
+          <button class="nav-item" type="button" data-view="chart" data-title="Chart">
+            <span class="nav-icon nav-icon-chart" aria-hidden="true"></span>
+            <span>Chart</span>
+          </button>
+        </nav>
+      </aside>
+
+      <div class="workspace">
+        <header class="topbar">
+          <button class="menu-button" type="button" aria-label="Collapse menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+
+          <div>
+            <p class="section-kicker">Rebate credit operations</p>
+            <h1 id="viewTitle">Dashboard</h1>
+          </div>
+
+          <div class="topbar-meta">
+            <span class="date-pill">As of <span id="todayLabel"></span></span>
+          </div>
+        </header>
+
+        <main id="contentStage" class="content-stage">
+          <section class="view-panel" data-panel="dashboard" aria-labelledby="dashboard-title">
+            <h2 id="dashboard-title" class="sr-only">Dashboard</h2>
+
+            <div class="metric-grid" id="metricGrid" aria-live="polite"></div>
+
+            <div class="dashboard-grid">
+              <section class="analysis-panel wide" aria-labelledby="pool-growth-title">
+                <div class="panel-head">
+                  <div>
+                    <p class="panel-kicker">Statistics</p>
+                    <h2 id="pool-growth-title">One-Year Open Qualified Pool Change</h2>
+                  </div>
+                  <span class="panel-chip">12 months</span>
+                </div>
+                <div class="growth-summary" id="poolGrowthSummary"></div>
+                <div class="bar-chart growth-chart" id="poolGrowthBars"></div>
+              </section>
+
+              <section class="analysis-panel" aria-labelledby="tier-title">
+                <div class="panel-head">
+                  <div>
+                    <p class="panel-kicker">Customers</p>
+                    <h2 id="tier-title">Tier Distribution</h2>
+                  </div>
+                </div>
+                <div class="tier-breakdown" id="tierBreakdown"></div>
+              </section>
+
+              <section class="analysis-panel" aria-labelledby="activity-title">
+                <div class="panel-head">
+                  <div>
+                    <p class="panel-kicker">Ledger</p>
+                    <h2 id="activity-title">Credit Activity</h2>
+                  </div>
+                  <span class="panel-chip">Recent</span>
+                </div>
+                <div class="activity-list" id="activityList"></div>
+              </section>
+            </div>
+          </section>
+
+          <section class="view-panel" data-panel="summary" aria-labelledby="summary-title" hidden>
+            <div class="table-header">
+              <div>
+                <p class="panel-kicker">Customers</p>
+                <h2 id="summary-title">Customer Summary</h2>
+              </div>
+            </div>
+
+            <div class="summary-tools">
+              <label class="search-box" for="summarySearch">
+                <span>Search</span>
+                <input id="summarySearch" type="search" autocomplete="off" placeholder="Customer name">
+              </label>
+            </div>
+
+            <div class="summary-grid" id="customerSummaryGrid"></div>
+          </section>
+
+          <section class="view-panel" data-panel="table" aria-labelledby="table-title" hidden>
+            <div class="table-header">
+              <div>
+                <p class="panel-kicker">SQL style ledger</p>
+                <h2 id="table-title">Customer Credit Lots</h2>
+              </div>
+              <span class="row-count" id="rowCount">0 rows</span>
+            </div>
+
+            <div class="table-tools">
+              <label class="search-box" for="customerSearch">
+                <span>Search</span>
+                <input id="customerSearch" type="search" autocomplete="off" placeholder="Customer name">
+              </label>
+
+              <div class="bucket-filter" role="group" aria-label="Group rows by credit expiration window">
+                <button class="bucket-button active" type="button" data-bucket="all">All</button>
+                <button class="bucket-button" type="button" data-bucket="7">0-7 days</button>
+                <button class="bucket-button" type="button" data-bucket="30">8-30 days</button>
+                <button class="bucket-button" type="button" data-bucket="60">31-60 days</button>
+                <label class="expired-toggle" for="showExpired">
+                  <input id="showExpired" type="checkbox" checked>
+                  <span>Show expired</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="sql-frame">
+              <div class="table-scroll">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>transaction_id</th>
+                      <th>document_number</th>
+                      <th>customer_name</th>
+                      <th>purchase_date</th>
+                      <th>expiration_date</th>
+                      <th>days_left</th>
+                      <th>qualified_amount</th>
+                      <th>credit_earned</th>
+                      <th>credit_used_on_transaction</th>
+                      <th>credit_balance_before</th>
+                      <th>credit_balance_after</th>
+                    </tr>
+                  </thead>
+                  <tbody id="ledgerBody"></tbody>
+                </table>
+              </div>
+            </div>
+          </section>
+
+          <section class="view-panel" data-panel="chart" aria-labelledby="chart-title" hidden>
+            <div class="chart-shell">
+              <div>
+                <p class="panel-kicker">Chart</p>
+                <h2 id="chart-title">Credit Expiration Chart</h2>
+              </div>
+
+              <div class="image-placeholder" role="img" aria-label="Chart image placeholder">
+                <div class="placeholder-top">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+                <div class="placeholder-grid">
+                  <span style="--bar-height: 42%"></span>
+                  <span style="--bar-height: 68%"></span>
+                  <span style="--bar-height: 56%"></span>
+                  <span style="--bar-height: 82%"></span>
+                  <span style="--bar-height: 48%"></span>
+                </div>
+                <div class="placeholder-label">Image placeholder</div>
+              </div>
+            </div>
+          </section>
+        </main>
+      </div>
+    </div>
+
+    <script src="/app.js"></script>
+  </body>
+</html>

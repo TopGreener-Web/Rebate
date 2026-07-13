@@ -1,0 +1,7 @@
+{
+  "purchase_orders_excel": "synthetic_purchase_orders_2025_2026.xlsx",
+  "credit_usage_excel": "synthetic_credit_usage_2025_2026.xlsx",
+  "as_of": "2026-06-22",
+  "output_prefix": "rebate_export_dashboard",
+  "dashboard_json": "public/rebate-data.json"
+}

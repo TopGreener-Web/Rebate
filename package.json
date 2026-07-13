@@ -1,0 +1,20 @@
+{
+  "name": "lider-rebate-dashboard",
+  "version": "1.0.0",
+  "description": "Interactive LIDER rebate credit dashboard.",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "build:native": "node scripts/build-native.js",
+    "start": "node server.js",
+    "demo": "node scripts/demo.js",
+    "demo:fallback": "node scripts/demo.js --python-fallback"
+  },
+  "keywords": [
+    "javascript",
+    "python",
+    "cpp",
+    "polyglot"
+  ],
+  "license": "MIT"
+}
