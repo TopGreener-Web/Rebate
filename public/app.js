@@ -1,4 +1,4 @@
-const DATA_URL = "/rebate-data.json";
+const DATA_URL = "./rebate-data.json";
 const MS_PER_DAY = 24 * 60 * 60 * 1000;
 
 const elements = {

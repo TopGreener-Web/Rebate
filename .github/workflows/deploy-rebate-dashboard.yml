@@ -1,4 +1,4 @@
-name: Deploy sales dashboard to GitHub Pages
+name: Deploy rebate dashboard to GitHub Pages
 
 on:
   push:
@@ -24,30 +24,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v7
 
-      - name: Set up Node
-        uses: actions/setup-node@v6
-        with:
-          node-version: lts/*
-          cache: npm
-          cache-dependency-path: sales-dashboard-2026/package-lock.json
-
-      - name: Install dependencies
-        working-directory: sales-dashboard-2026
-        run: npm ci
-
-      - name: Build dashboard
-        working-directory: sales-dashboard-2026
-        env:
-          GITHUB_PAGES: "true"
-        run: npm run build
-
       - name: Setup Pages
         uses: actions/configure-pages@v6
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v5
         with:
-          path: sales-dashboard-2026/dist
+          path: public
 
       - name: Deploy to GitHub Pages
         id: deployment
